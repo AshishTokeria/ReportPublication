@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.BuildingBlocks.AppConfig" Version="1.0.1" />
+    <PackageReference Include="AspNetCore.BuildingBlocks.Database" Version="1.0.2" />
+    <PackageReference Include="AspNetCore.BuildingBlocks.Database.EF" Version="1.0.1" />
+    <PackageReference Include="AspNetCore.BuildingBlocks.HealthChecks" Version="1.0.0" />
+    <PackageReference Include="AspNetCore.BuildingBlocks.Mvc" Version="1.0.0" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.15.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FVA.IPV.ReportPublication.Provider\FVA.IPV.ReportPublication.Provider.csproj" />
+    <ProjectReference Include="..\FVA.IPV.ReportPublication.Transport\FVA.IPV.ReportPublication.Transport.csproj" />
+  </ItemGroup>
+
+</Project>

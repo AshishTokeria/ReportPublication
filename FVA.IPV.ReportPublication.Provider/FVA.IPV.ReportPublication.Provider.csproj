@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FVA.IPV.ReportPublication.Data\FVA.IPV.ReportPublication.Data.csproj" />
+    <ProjectReference Include="..\FVA.IPV.ReportPublication.Model\FVA.IPV.ReportPublication.Model.csproj" />
+    <ProjectReference Include="..\FVA.IPV.ReportPublication.Service\FVA.IPV.ReportPublication.Service.csproj" />
+  </ItemGroup>
+
+</Project>

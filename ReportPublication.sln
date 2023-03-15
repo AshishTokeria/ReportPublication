@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FVA.IPV.ReportPublication.WebApi", "FVA.IPV.ReportPublication.WebApi\FVA.IPV.ReportPublication.WebApi.csproj", "{3E3A2F6E-0D93-4A2A-A2C3-79E38F1B33CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FVA.IPV.ReportPublication.Transport", "FVA.IPV.ReportPublication.Transport\FVA.IPV.ReportPublication.Transport.csproj", "{6F2A60CC-A620-421F-B98F-43EFF01148DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FVA.IPV.ReportPublication.Provider", "FVA.IPV.ReportPublication.Provider\FVA.IPV.ReportPublication.Provider.csproj", "{D23605F4-0AA1-4A5E-8F8F-F543EC200BD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FVA.IPV.ReportPublication.Model", "FVA.IPV.ReportPublication.Model\FVA.IPV.ReportPublication.Model.csproj", "{D3037402-C496-4560-89E1-038C6A71DFA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FVA.IPV.ReportPublication.WebUtil", "FVA.IPV.ReportPublication.WebUtil\FVA.IPV.ReportPublication.WebUtil.csproj", "{05B9216B-4BA2-49B4-A159-2B0DDCB681F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FVA.IPV.ReportPublication.Data", "FVA.IPV.ReportPublication.Data\FVA.IPV.ReportPublication.Data.csproj", "{B9629C6E-290B-4B63-A6C9-A1E92219EC76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FVA.IPV.ReportPublication.Service", "FVA.IPV.ReportPublication.Service\FVA.IPV.ReportPublication.Service.csproj", "{CD873195-7355-4493-A314-DEACE397C81C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E3A2F6E-0D93-4A2A-A2C3-79E38F1B33CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3A2F6E-0D93-4A2A-A2C3-79E38F1B33CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3A2F6E-0D93-4A2A-A2C3-79E38F1B33CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3A2F6E-0D93-4A2A-A2C3-79E38F1B33CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F2A60CC-A620-421F-B98F-43EFF01148DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2A60CC-A620-421F-B98F-43EFF01148DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2A60CC-A620-421F-B98F-43EFF01148DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2A60CC-A620-421F-B98F-43EFF01148DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23605F4-0AA1-4A5E-8F8F-F543EC200BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23605F4-0AA1-4A5E-8F8F-F543EC200BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23605F4-0AA1-4A5E-8F8F-F543EC200BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23605F4-0AA1-4A5E-8F8F-F543EC200BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3037402-C496-4560-89E1-038C6A71DFA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3037402-C496-4560-89E1-038C6A71DFA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3037402-C496-4560-89E1-038C6A71DFA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3037402-C496-4560-89E1-038C6A71DFA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B9216B-4BA2-49B4-A159-2B0DDCB681F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B9216B-4BA2-49B4-A159-2B0DDCB681F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B9216B-4BA2-49B4-A159-2B0DDCB681F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B9216B-4BA2-49B4-A159-2B0DDCB681F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9629C6E-290B-4B63-A6C9-A1E92219EC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9629C6E-290B-4B63-A6C9-A1E92219EC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9629C6E-290B-4B63-A6C9-A1E92219EC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9629C6E-290B-4B63-A6C9-A1E92219EC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD873195-7355-4493-A314-DEACE397C81C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD873195-7355-4493-A314-DEACE397C81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD873195-7355-4493-A314-DEACE397C81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD873195-7355-4493-A314-DEACE397C81C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54A43E47-8F04-4934-84EB-53C45D4E643D}
+	EndGlobalSection
+EndGlobal
